@@ -1,0 +1,30 @@
+.mutualfundspick
+{
+    flex: 0.8;
+    padding: 20px;
+    overflow: scroll;
+}
+.mutualfundspick table
+{
+    width: 100vw;
+}
+.mutualfundspick thead 
+{
+    background-color: #143943;
+}
+.mutualfundspick thead tr th
+{
+    color: white;
+    min-width: 200px;
+    padding: 7px;
+}
+.mutualfundspick tbody
+{
+    background-color: #f0f0f0;
+}
+.mutualfundspick tbody tr td
+{
+    border-bottom: 1px solid #eab64a;
+    text-align: center;
+    padding: 3px;
+}

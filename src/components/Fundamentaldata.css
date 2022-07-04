@@ -1,0 +1,24 @@
+.fundamentaldata
+{
+    flex: 0.8;
+    padding: 20px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.fundamentaldata input
+{
+    width: 30vw;
+    padding: 7px;
+}
+.fundamentaldata button
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 300px;
+}

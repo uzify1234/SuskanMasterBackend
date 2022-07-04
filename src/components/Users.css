@@ -1,0 +1,86 @@
+.users
+{
+    flex: 0.8;
+    padding: 20px;
+}
+.users .linear
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+ 
+}
+.users .linear select
+{
+    margin-left: 30px;
+    padding: 7px;
+    border: 2px solid #143943;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 30px;
+}
+.users .linear button
+{
+    background-color: #143943;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.users .linear .searchholderregion
+{
+    position: fixed;
+    top: 6vh;
+    right: 10px;
+}
+.layoutform
+{
+    width: 50vw;
+}
+.layoutform input,.layoutform select
+{
+    padding: 7px;
+    margin: 5px;
+    border: 1px solid #143943;
+    border-radius: 5px;
+    background-color: white;
+    color: #143943;
+    font-weight: bolder;
+}
+.layoutform button
+{
+    margin-top: 30px;
+    width: 200px;
+    padding: 7px;
+    border: none;
+    background-color: #143943;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.results
+{
+    margin-top: 50px;
+}
+.results .eachuser
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+}
+.results .eachuser h4
+{
+    margin: 0px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    width: 15%;
+    overflow: hidden;
+    
+}

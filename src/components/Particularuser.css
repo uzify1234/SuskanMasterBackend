@@ -1,0 +1,40 @@
+.particularuser
+{
+    flex: 0.8;
+    padding: 20px;
+}
+.userdetails
+{
+    padding: 20px;
+   
+}
+.userdetails h5
+{
+    margin-bottom: 10px;
+}
+.userdetails input
+{
+    padding: 7px;
+    border: 2px solid #143943;
+    border-radius: 5px;
+   width: 30%;
+}
+.userdetails select
+{
+    padding: 7px;
+    border: 2px solid #143943;
+    border-radius: 5px;
+   width: 32%;
+   background-color: white;
+}
+
+.userdetails button
+{
+    background-color: #143943;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+}

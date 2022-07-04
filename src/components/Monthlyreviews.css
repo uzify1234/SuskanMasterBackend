@@ -1,0 +1,29 @@
+.monthlyreviews
+{
+    flex: 0.8;
+    padding: 20px;
+    overflow: scroll;
+}
+.monthlyreviews table
+{
+    width: 100vw;
+}
+.monthlyreviews thead 
+{
+    background-color: #143943;
+}
+.monthlyreviews thead tr th
+{
+    color: white;
+    min-width: 200px;
+}
+.monthlyreviews tbody
+{
+    background-color: #f0f0f0;
+}
+.monthlyreviews tbody tr td
+{
+    border-bottom: 1px solid #eab64a;
+    text-align: center;
+    padding: 3px;
+}

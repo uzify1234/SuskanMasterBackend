@@ -1,0 +1,38 @@
+.leftmenu
+{
+    background-color: #121e1e;
+    flex: 0.2;
+    min-height: 100vh;
+    overflow: hidden;
+ 
+}
+.leftmenuinner
+{
+    padding: 10px;
+    position: fixed;
+    top: 100px;
+    left: 5px;
+    
+    bottom: 10px;
+    max-width: 100%;
+
+}
+.leftmenuinner h4
+{
+    background-color: #143943;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-left: 2px solid #eab64a;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.leftmenuinner .special
+{
+    background-color: #eab64a;
+    color: black;
+    border-left: 2px solid black;
+}
